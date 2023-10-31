@@ -21,7 +21,11 @@ Algoritmo minicalculadora
 	 si ( opcion = 3)Entonces
 		 num_mul=num_a * num_b;
 		 Escribir "La multiplicación de ", num_a, "y de ", num_b, " es  ", num_mul;
-		 
+		 si (opcion =4 )Entonces
+			 num_div = num_a/num_b;
+			 Escribir "La division de ", num_a, "y de ", num_b, " es  ", num_div;
+			 
+		 FinSi
 	 sino
          Escribir "Esa operación no esta permitida"
 	 FinSi
